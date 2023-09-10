@@ -1,0 +1,27 @@
+
+body {
+    font-family: "Arial", sans-serif; /* Example font family */
+   display: flex;
+}
+@font-face {
+    font-family: 'Norse Bold'; 
+    src: url('Norse-Bold.otf') format('opentype');
+}
+
+.rightside {
+    
+    background-image: url('background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    
+
+}
+
+.rightside > p {
+font-family: 'Norse Bold';
+}
+
+
+    
+
