@@ -14,48 +14,51 @@ body {
 }
 
 .leftside {
+    box-sizing: border-box;
     background-image: url("background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 35%; /* Set this to 35% */
+    width: 40%;
+   
     display: flex;
     justify-content: center;
     align-items: center; 
+    
   }
   
   
   
 
 .logo-wrapper > p {
-  font-family: "Norse Bold";
+font-family: "Norse Bold";
   color: #f8f8f8;
-  
+  font-size: 7rem;
+  margin: 10px 0; 
 }
 
-.leftside {
-  display: flex;
 
-  justify-content: center;
-  align-items: center; 
-
-}
 
 .logo {
-  width: 50px;
+  width: 100px;
   margin-right: 10px;
 
 }
 
 .logo-wrapper {
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.5);  
-    
+    padding: 2px;
     
     position: relative;
-    top: -20px; 
+    top: -140px; 
     display: flex;
     justify-content: center;
+    align-items: center;
+    
     flex: 1;
+    /* flex-shrink: 1; */
+    width: 100%;
 }
 .herotext {
     font-weight: bold;
