@@ -1,4 +1,6 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -9,7 +11,6 @@ body {
   flex-direction: row;
   margin: 0;
   min-height: 100vh;
-
 }
 
 @font-face {
@@ -19,7 +20,7 @@ body {
 
 .leftside {
   background-image: url("background.jpg");
-  background-size: cover ;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 40%;
@@ -44,52 +45,45 @@ body {
 
 .logo-wrapper {
   background-color: rgba(0, 0, 0, 0.5);
-  
 
   position: relative;
   top: -140px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   flex-shrink: 1;
   width: 100%;
 }
 .herotext {
   font-weight: bold;
-  font-size: 1.5rem; 
-  padding: 20px 40px; 
+  font-size: 1.5rem;
+  padding: 20px 40px;
   margin-top: 100px;
   width: 88%;
 }
 
 .rightside {
   width: 65%;
-  
 }
 
-
-
 .hero-backgroundcolor {
-  background-color: #F0F0F0;
-  flex: .8;
-  
+  background-color: #f0f0f0;
+  flex: 0.8;
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  
 }
 .login-backgroundcolor {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   flex-grow: 1;
-  
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
   box-shadow: 0px 0px 6px #454545;
-
 }
-
 
 .inputcontainer {
   font-size: 1rem;
@@ -97,28 +91,26 @@ body {
   align-self: flex-start;
   flex-wrap: wrap;
   padding-left: 10px;
-  
-  
 }
 
 button {
-  background-color: #596D48;
+  background-color: #596d48;
   color: #f8f8f8;
-  width: 88%; 
-  padding: 10px; 
-  border: none; 
-  cursor: pointer; 
-  margin-top: 10px; 
-  border-radius: 5px; 
+  width: 88%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
   align-self: flex-start;
 }
 
 .login-wrapper {
   padding-top: 20px;
-  
+
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   position: relative;
   left: 40px;
   margin-bottom: 15vh;
@@ -128,50 +120,40 @@ legend {
   left: 40px;
   margin-top: 20px;
   font-weight: bold;
-  font-size: 1.5rem ;
+  font-size: 1.5rem;
 }
 
-
-
 .login-wrapper p {
-  margin: 10px 0; 
-  
+  margin: 10px 0;
 }
 
 .login-wrapper span {
-  color:  #596D48; 
-  cursor: pointer; 
-  
+  color: #596d48;
+  cursor: pointer;
 }
 
-
-
-.form-leftside > div,.form-rightside > div {
+.form-leftside > div,
+.form-rightside > div {
   display: flex;
-  
+
   margin-bottom: 20px;
-  flex-flow:row wrap;
+  flex-flow: row wrap;
   flex-direction: column;
 }
 
-
 label {
-  font-size: .8rem;
-  
+  font-size: 0.8rem;
 }
 label {
-  
-  
- 
-  
   padding: 1px;
-  
 }
-legend, .form-leftside {
+legend,
+.form-leftside {
   align-self: flex-start;
 }
 
-.form-leftside, .form-rightside {
+.form-leftside,
+.form-rightside {
   padding: 30px;
 }
 form {
@@ -180,15 +162,19 @@ form {
   align-self: flex-start;
 }
 
-.cutline  {
-  
+.cutline {
   color: #f8f8f8;
-  font-size: .6rem;
-  position: absolute;
+  font-size: 0.6rem;
+position: relative;
+bottom: -40%;
+  
+  /* display: flex;
+  flex-direction: column; */
+  
+  /* position: absolute;
   bottom: 10px;
-  transform: translateX(130%);
+  transform: translateX(130%); */
 }
-
 
 input {
   border: 1px solid #bcbdbf;
@@ -196,17 +182,17 @@ input {
   padding: 4px 6px;
 }
 
-input:focus{
+input:focus {
   outline: none;
   border-color: rgb(36, 17, 206);
   box-shadow: 3px 3px 3px #454545;
 }
 
 input[type="password"]:invalid {
-  border-color: red;  
+  border-color: red;
 }
 input[type="password"]:valid {
-  border-color: #bcbdbf; 
+  border-color: #bcbdbf;
 }
 input[type="password"]:focus {
   outline: none;
@@ -214,8 +200,6 @@ input[type="password"]:focus {
   box-shadow: 3px 3px 3px #454545;
 }
 
-
 input:valid {
   border-color: #bcbdbf;
 }
-
