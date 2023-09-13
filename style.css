@@ -9,7 +9,7 @@ body {
   flex-direction: row;
   margin: 0;
   min-height: 100vh;
-  
+
 }
 
 @font-face {
@@ -63,15 +63,12 @@ body {
 
 .rightside {
   width: 65%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  
 }
 
 header, footer {
   background-color: #101010;
-  width: 200px;
+  width: 15%;
 }
 
 .hero-backgroundcolor {
@@ -85,11 +82,12 @@ header, footer {
 }
 .login-backgroundcolor {
   background-color: #F0F0F0;
-  flex: 1;
+  flex-grow: 1;
   
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  
 }
 
 
@@ -97,8 +95,8 @@ header, footer {
   font-size: 1rem;
   display: flex;
   align-self: flex-start;
-  
-  padding: 10px;
+  flex-wrap: wrap;
+  padding-left: 10px;
   
   
 }
@@ -130,6 +128,7 @@ legend {
   align-items: center; 
   position: relative;
   left: 40px;
+  margin-bottom: 15vh;
 }
 
 .login-wrapper p {
@@ -177,3 +176,10 @@ form {
   flex-direction: column;
   align-self: flex-start;
 }
+
+/* .cutline {
+  color: #f8f8f8;
+  font-size: .6rem;
+  position: relative;
+  bottom: 1vh;
+} */
