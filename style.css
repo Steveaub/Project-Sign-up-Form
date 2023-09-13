@@ -129,7 +129,8 @@ legend {
   position: relative;
   left: 40px;
   margin-top: 20px;
-  
+  font-weight: bold;
+  font-size: 1.5rem ;
 }
 
 
@@ -209,6 +210,11 @@ input[type="password"]:invalid {
   border-color: red;  
 }
 
-/* input[type="tel"]:invalid {
+#tel:invalid {
   border-color: red;
-} */
+}
+
+#tel:placeholder-shown {
+  border: 1px solid #bcbdbf;
+  
+}
