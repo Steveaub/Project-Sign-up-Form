@@ -44,7 +44,7 @@ body {
 
 .logo-wrapper {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
+  
 
   position: relative;
   top: -140px;
@@ -68,10 +68,7 @@ body {
   
 }
 
-header, footer {
-  background-color: #101010;
-  width: 15%;
-}
+
 
 .hero-backgroundcolor {
   background-color: #F0F0F0;
@@ -141,9 +138,9 @@ legend {
 }
 
 .login-wrapper span {
-  color: blue; 
+  color:  #596D48; 
   cursor: pointer; 
-  text-decoration: underline; 
+  
 }
 
 
@@ -201,5 +198,12 @@ input {
 input:focus{
   outline: none;
   border-color: rgb(36, 17, 206);
+}
+
+input[type="password"]:invalid {
+  border-color: red;  
+}
+input:valid {
+  border-color: #bcbdbf;;
 }
 
