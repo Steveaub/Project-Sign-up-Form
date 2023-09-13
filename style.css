@@ -86,7 +86,8 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  
+  box-shadow: 0px 0px 6px #454545;
+
 }
 
 
@@ -185,25 +186,36 @@ form {
   font-size: .6rem;
   position: absolute;
   bottom: 10px;
-  transform: translateX(100%);
+  transform: translateX(130%);
 }
 
 
 input {
   border: 1px solid #bcbdbf;
   border-radius: 5px;
-  padding: 8px 12px;
+  padding: 4px 6px;
 }
 
 input:focus{
   outline: none;
   border-color: rgb(36, 17, 206);
+  box-shadow: 3px 3px 3px #454545;
 }
 
 input[type="password"]:invalid {
   border-color: red;  
 }
+input[type="password"]:valid {
+  border-color: #bcbdbf; 
+}
+input[type="password"]:focus {
+  outline: none;
+  border-color: rgb(36, 17, 206);
+  box-shadow: 3px 3px 3px #454545;
+}
+
+
 input:valid {
-  border-color: #bcbdbf;;
+  border-color: #bcbdbf;
 }
 
