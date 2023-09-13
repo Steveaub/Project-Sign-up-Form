@@ -188,3 +188,27 @@ form {
   bottom: 10px;
   transform: translateX(100%);
 }
+
+
+input {
+  border: 1px solid #bcbdbf;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+input:focus {
+  
+  border-color: rgb(71, 71, 232);
+  box-shadow: 0 0 5px #101010;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input[type="password"]:invalid {
+  border-color: red;  
+}
+
+/* input[type="tel"]:invalid {
+  border-color: red;
+} */

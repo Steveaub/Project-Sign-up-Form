@@ -50,7 +50,7 @@
             </div>
             <div>
               <label for="password">PASSWORD</label>
-              <input type="password" name="password" id="password" required />
+              <input type="password" name="password" id="password" required class="error"/>
             </div>
           </div>
           <div class="form-rightside">
@@ -60,10 +60,10 @@
             </div>
             <div>
               <label for="tel">PHONE NUMBER</label>
-              <input type="tel" name="tel" id="tel" required placeholder="" />
+              <input type="tel" name="tel" id="tel" required required pattern="^\d{10,15}$"  placeholder="" />
             </div>
             <div>
-              <label for="cpassword"> COMFIRM PASSWORD</label>
+              <label for="cpassword"> COMFIRM PASSWORD</label class="error">
               <input type="password" name="cpassword" id="Cpassword" required />
             </div>
           </div>
