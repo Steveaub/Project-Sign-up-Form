@@ -57,6 +57,8 @@ body {
   font-weight: bold;
   font-size: 1.2rem; 
   padding: 20px 40px; 
+  margin-top: 100px;
+  width: 80%;
 }
 
 .rightside {
@@ -72,10 +74,19 @@ header, footer {
   width: 200px;
 }
 
-.hero-backgroundcolor,.login-backgroundcolor {
+.hero-backgroundcolor {
+  background-color: #F0F0F0;
+  flex: .8;
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.login-backgroundcolor {
   background-color: #F0F0F0;
   flex: 1;
-  /* width: 100%; */
+  
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -107,6 +118,7 @@ button {
 legend {
   position: relative;
   left: 40px;
+  margin-top: 20px;
 
 }
 
