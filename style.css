@@ -85,10 +85,10 @@ header, footer {
 .inputcontainer {
   font-size: 1rem;
   display: flex;
-  
+  align-self: flex-start;
   
   padding: 10px;
-  /* padding-right: 200px; */
+  
   
 }
 
@@ -105,7 +105,9 @@ button {
 }
 
 legend {
-  
+  position: relative;
+  left: 40px;
+
 }
 
 .login-wrapper {
@@ -114,7 +116,8 @@ legend {
   display: flex;
   flex-direction: column;
   align-items: center; 
-
+  position: relative;
+  left: 40px;
 }
 
 .login-wrapper p {
@@ -137,15 +140,10 @@ legend {
   flex-direction: column;
 }
 
-fieldset {
-  border: none;
-  flex-grow: 1;
-  display: flex;
-  
- 
-}
+
 label {
   font-size: .8rem;
+  
 }
  label, input {
 
@@ -161,4 +159,9 @@ legend, .form-leftside {
 
 .form-leftside, .form-rightside {
   padding: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
 }
