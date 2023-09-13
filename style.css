@@ -150,6 +150,7 @@ legend {
 
 .form-leftside > div,.form-rightside > div {
   display: flex;
+  
   margin-bottom: 20px;
   flex-flow:row wrap;
   flex-direction: column;
@@ -160,7 +161,7 @@ label {
   font-size: .8rem;
   
 }
-label, input {
+label {
   
   
  
@@ -196,25 +197,9 @@ input {
   border-radius: 5px;
   padding: 8px 12px;
 }
-input:focus {
-  
-  border-color: rgb(71, 71, 232);
-  box-shadow: 0 0 5px #101010;
+
+input:focus{
+  outline: none;
+  border-color: rgb(36, 17, 206);
 }
 
-input:valid {
-  border-color: green;
-}
-
-input[type="password"]:invalid {
-  border-color: red;  
-}
-
-#tel:invalid {
-  border-color: red;
-}
-
-#tel:placeholder-shown {
-  border: 1px solid #bcbdbf;
-  
-}
